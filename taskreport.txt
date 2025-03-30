@@ -1,0 +1,7 @@
+## Task Report ##
+
+Slider functionality is implemented using the Owl Carousel JS CDN.
+
+Animation is implemented using the AOS Animation JS CDN.
+
+Responsiveness is achieved using pure media queries.
