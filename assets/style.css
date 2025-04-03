@@ -1917,6 +1917,7 @@ footer {
     height: 600px;
     --r: 20px;
     --s: 20px;
+    --y: 10px
   }
 
   .logo {
