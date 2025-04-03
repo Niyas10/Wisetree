@@ -5,18 +5,12 @@ body {
   overflow-x: hidden;
 }
 
-
-.left-button-align{
+.left-button-align {
   display: flex;
   align-items: end;
 }
 
-
-
-
-
-
- .button-wrapper {
+.button-wrapper {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -24,9 +18,8 @@ body {
   cursor: pointer;
   transition: 0.3s;
   position: relative;
-  width: fit-content; 
+  width: fit-content;
 }
-
 
 .button-text {
   background: linear-gradient(to right, #2f5fa7, #1f4e3f);
@@ -44,7 +37,6 @@ body {
   left: 5px;
 }
 
-
 .curve-shape {
   width: 13px;
   height: 22px;
@@ -54,9 +46,8 @@ body {
   border-radius: 1px;
 }
 
-
 .button-icon-container {
- padding: 20px;
+  padding: 20px;
   background: linear-gradient(to right, #2f5fa7, #1f4e3f);
   border-radius: 50%;
   display: flex;
@@ -72,21 +63,11 @@ body {
   height: 18px;
 }
 
-
 .button-wrapper:hover {
   transform: scale(1.05);
 }
 
-
-
-
-
-
-
-
-
-
- .button-wrapper-who-we-are {
+.button-wrapper-who-we-are {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -94,9 +75,8 @@ body {
   cursor: pointer;
   transition: 0.3s;
   position: relative;
-  width: fit-content; 
+  width: fit-content;
 }
-
 
 .button-text-who-we-are {
   background: white;
@@ -114,8 +94,7 @@ body {
   left: 5px;
 }
 
-
-.curve-shape-who-we-are{
+.curve-shape-who-we-are {
   width: 13px;
   height: 22px;
   background: white;
@@ -124,9 +103,8 @@ body {
   border-radius: 1px;
 }
 
-
 .button-icon-container-who-we-are {
- padding: 20px;
+  padding: 20px;
   background: white;
   border-radius: 50%;
   display: flex;
@@ -142,25 +120,17 @@ body {
   height: 18px;
 }
 
-
 .button-wrapper-who-we-are:hover {
   transform: scale(1.05);
 }
 
-
-
-.right-button-align{
+.right-button-align {
   display: flex;
   align-items: end;
   justify-content: end;
 }
 
-
-
-
-
-
- .button-wrapper-footer {
+.button-wrapper-footer {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -168,9 +138,8 @@ body {
   cursor: pointer;
   transition: 0.3s;
   position: relative;
-  width: fit-content; 
+  width: fit-content;
 }
-
 
 .button-text-footer {
   background: white;
@@ -188,7 +157,6 @@ body {
   left: 5px;
 }
 
-
 .curve-shape-footer {
   width: 13px;
   height: 22px;
@@ -198,9 +166,8 @@ body {
   border-radius: 1px;
 }
 
-
 .button-icon-container-footer {
- padding: 20px;
+  padding: 20px;
   background: white;
   border-radius: 50%;
   display: flex;
@@ -216,21 +183,9 @@ body {
   height: 18px;
 }
 
-
 .button-wrapper-footer:hover {
   transform: scale(1.05);
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .container {
   padding-left: 30px;
@@ -452,14 +407,14 @@ body {
 }
 
 .landing-inverted {
-  --r: 20px;
-  --s: 60px;
-  --x: 110px;
-  --y: 10px;
+  --r: 50px;
+  --s: 45px;
+  --x: 105px;
+  --y: -8px;
 
   width: 100%;
 
-  background: url("../images/homePage/Landing.jpg");
+  background: url("../images/homePage/landingNew.png");
 
   background-size: cover;
   background-repeat: no-repeat;
@@ -1529,7 +1484,6 @@ footer {
   .landing-inverted {
     height: 700px;
     background-position: center;
-    background-size: auto;
   }
 
   .marquee-content h1 {
@@ -1606,16 +1560,15 @@ footer {
     gap: 30px;
   }
 
-
-  .button-text{
+  .button-text {
     padding: 15px 15px;
     font-size: 15px;
   }
-  .button-icon-container{
+  .button-icon-container {
     padding: 16px;
   }
 
-  .button-text-who-we-are{
+  .button-text-who-we-are {
     padding: 15px 15px;
     font-size: 15px;
   }
@@ -1623,32 +1576,27 @@ footer {
     padding: 16px;
   }
 
-  .button-text-footer{
+  .button-text-footer {
     padding: 15px 15px;
     font-size: 15px;
   }
   .button-icon-container-footer {
     padding: 16px;
   }
-
-
-
 }
 
 /* tab view */
 
 @media (min-width: 768px) and (max-width: 1023px) {
-
-
-  .button-text{
+  .button-text {
     padding: 15px 15px;
     font-size: 15px;
   }
-  .button-icon-container{
+  .button-icon-container {
     padding: 16px;
   }
 
-  .button-text-who-we-are{
+  .button-text-who-we-are {
     padding: 15px 15px;
     font-size: 15px;
   }
@@ -1656,17 +1604,13 @@ footer {
     padding: 16px;
   }
 
-  .button-text-footer{
+  .button-text-footer {
     padding: 15px 15px;
     font-size: 15px;
   }
   .button-icon-container-footer {
     padding: 16px;
   }
-
-
-
-
 
   .blogsection {
     display: none;
@@ -1681,6 +1625,10 @@ footer {
   .landing-inverted {
     background-size: inherit;
     height: 640px;
+    --r: 20px;
+    --s: 60px;
+    --x: 110px;
+    --y: -5px;
   }
   .service {
     padding-bottom: 0px;
@@ -1922,17 +1870,15 @@ footer {
 /* mobile view  */
 
 @media (min-width: 320px) and (max-width: 767px) {
-  
-  
-  .button-text{
+  .button-text {
     padding: 14px 14px;
     font-size: 14px;
   }
-  .button-icon-container{
+  .button-icon-container {
     padding: 14px;
   }
 
-  .button-text-who-we-are{
+  .button-text-who-we-are {
     padding: 14px 14px;
     font-size: 14px;
   }
@@ -1940,7 +1886,7 @@ footer {
     padding: 14px;
   }
 
-  .button-text-footer{
+  .button-text-footer {
     padding: 14px 14px;
     font-size: 14px;
   }
@@ -1951,8 +1897,6 @@ footer {
   .right-button-align {
     justify-content: start;
   }
-
-
 
   .blogsection {
     display: none;
